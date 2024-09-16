@@ -1,0 +1,1 @@
+# DTD Implementation: Web of Things Thing Description
