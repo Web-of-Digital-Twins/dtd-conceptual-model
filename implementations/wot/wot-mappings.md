@@ -5,6 +5,7 @@ The Thing Description does not have the whole semantics needed to represent the 
 It is possible to note that the **WoT Thing Description**, appropriately **supported** by the **WoDT vocabulary**, can **implement** a **Digital Twin Description** offering at the same time a compatibility layer towards the *Web of Things*. \
 A HWoDT Digital Twin described by a Digital Twin Description implemented with a Thing Description can also be used by a Consumer as a WoT Thing.
 
+***N.B: To ease the creation of a HWoDT-compliant DTD with the WoT Thing Description a WoT Thing Model is provided [here](https://github.com/Web-of-Digital-Twins/dtd-conceptual-model/blob/main/implementations/wot/dtd-thing-model.tm.jsonld).*** 
 
 ## Root
 |Element                         | Description |
