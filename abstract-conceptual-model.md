@@ -52,8 +52,7 @@ Structure of a **Relationship** in the *Digital Twin Description*.
 Structure of an **Action** in the *Digital Twin Description*.
 |Element                         |Mandatory |Value Type                           | Description |
 |:-------------------------------|:---------|:------------------------------------|:------------|
-|**Name**                        |yes       |string                               |The name of the action.|
-|**Action ID**                   |yes       |string                               |The ID used to identify the action within the DTKG.|
+|**Action ID**                   |yes       |string                               |The ID used to identify the action.|
 |**Domain Tag**                  |yes       |URI                                  |The URI that identifies the domain ontology resource (e.g., class, predicate, individual) used to describe the action type (e.g., `ontology:SwitchCommand`).|
 |**Is Augmented**                |no        |boolean                              |It states if the action is an augmented or not. If not it means that is mirrored directly from the PA.|
 |**Required Input**              |no        |**Data Schema**                      |The input data structure that the action takes as input.|
