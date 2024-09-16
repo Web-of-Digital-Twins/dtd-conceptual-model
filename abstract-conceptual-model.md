@@ -19,7 +19,8 @@ It serves as the conceptual basis for the processing of Digital Twin Description
 |**Relationships**               |yes       |List of **Relationship**             |The relationships of the HWoDT DT.|
 |**Actions**                     |yes       |List of **Action**                   |The actions of the HWoDT DT.|
 
-## Property
+In the following the detailed description of the **referenced** elements.
+### Property
 Structure of a **Property** in the *Digital Twin Description*.
 |Element                         |Mandatory |Value Type                           | Description |
 |:-------------------------------|:---------|:------------------------------------|:------------|
@@ -29,7 +30,7 @@ Structure of a **Property** in the *Digital Twin Description*.
 |**Read affordance**             |no        |List of **Form**                     |The affordance to read the current value of the property. Different protocols can be specified.|
 |**Observation affordance**      |no        |List of **Form**                     |The affordance to observe the evolution of the value of the property. Different protocols can be specified.|
 
-## Event
+### Event
 Structure of an **Event** in the *Digital Twin Description*.
 |Element                         |Mandatory |Value Type                           | Description |
 |:-------------------------------|:---------|:------------------------------------|:------------|
@@ -38,7 +39,7 @@ Structure of an **Event** in the *Digital Twin Description*.
 |**Is Augmented**                |no        |boolean                              |It states if the event is an augmented or not. If not it means that is mirrored directly from the PA.|
 |**Observation affordance**      |yes        |List of **Form**                    |The affordance to observe the event. Different protocols can be specified.|
 
-## Relationship
+### Relationship
 Structure of a **Relationship** in the *Digital Twin Description*.
 |Element                         |Mandatory |Value Type                           | Description |
 |:-------------------------------|:---------|:------------------------------------|:------------|
@@ -47,7 +48,7 @@ Structure of a **Relationship** in the *Digital Twin Description*.
 |**Read affordance**             |no        |List of **Form**                     |The affordance to read the active intances of the relationship. Different protocols can be specified.|
 |**Observation affordance**      |no        |List of **Form**                     |The affordance to observe the evolution of the instances of the relationship. Different protocols can be specified.|
 
-## Action
+### Action
 Structure of an **Action** in the *Digital Twin Description*.
 |Element                         |Mandatory |Value Type                           | Description |
 |:-------------------------------|:---------|:------------------------------------|:------------|
@@ -59,8 +60,8 @@ Structure of an **Action** in the *Digital Twin Description*.
 |**Action invocation affordance**|yes       |List of **Form**                     |The affordance to invoke the action. Different protocols can be specified.|
 
 
-## Data Schema
+### Data Schema
 It describes the structure of the data being sent. Its serialization depends on the specific implementation.
 
-## Form
+### Form
 It contains all the protocol information necessary for automatic processing -- without *out-of-band* data.
