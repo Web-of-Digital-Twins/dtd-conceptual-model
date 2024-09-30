@@ -17,7 +17,7 @@ A HWoDT Digital Twin described by a Digital Twin Description implemented with a 
 |**DTKG link**                   |Defined through a link (TD's *Link*) in `links`, with `dtkg` as relation type (from *WoDT vocabulary*).|
 |**Memento TimeGate**            |Defined through a link (TD's *Link*) in `links`, with `timegate` as relation type, following the *Memento* protocol.|
 |**WoDT Platforms**              |Each platform is defined through a link (TD's *Link*) in `links`, with `registeredToPlatform` as relation type (from *WoDT vocabulary*).|
-|**Observation affordance**      |*Thing level Form** with `"op": "observeallproperties"` |
+|**Observation affordance**      |*Thing level Form* with `"op": "observeallproperties"` |
 |**Properties**                  |Set using the TD *Property* Interaction affordance of the TD. Each property has the `readOnly` field set to `true`.|
 |**Events**                      |Set using the TD *Event* Interaction affordance of the TD.|
 |**Relationships**               |TD does not provide a way to observe or add metadata to *Links*. So, each relationship must be modeled through a *TD Property* in the TD. Each property has the `readOnly` field set to `true`.|
