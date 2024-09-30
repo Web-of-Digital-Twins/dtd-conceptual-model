@@ -5,7 +5,7 @@
             "wodt": "https://raw.githubusercontent.com/Web-of-Digital-Twins/wodt-vocabulary/refs/heads/main/core.ttl#"
         }
     ],
-    "@type": ["tm:ThingModel","{{DT_TYPE}}"],
+    "@type": "tm:ThingModel",
     "title": "{{DT_TITLE}}",
     "version": {"model": "0.1.0"},
     "id": "{{DT_URI}}",
@@ -18,7 +18,7 @@
             "@type": "wodt:AvailableActions",
             "title": "Available actions",
             "description": "This property is external to the Digital Twin model and allows the DT to describe the currently active actions that can be correctly executed on the Thing.",
-            "readOnly": "true"
+            "readOnly": true
         }
     },
     "links": [{
