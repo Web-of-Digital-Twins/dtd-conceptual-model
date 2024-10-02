@@ -18,7 +18,7 @@ The model of this lamp is the following one:
     "@context": [
         "https://www.w3.org/2022/wot/td/v1.1",
         {
-            "wodt": "https://raw.githubusercontent.com/Web-of-Digital-Twins/wodt-vocabulary/refs/heads/main/core.ttl#",
+            "wodt": "https://purl.org/wodt/",
             "saref": "https://saref.etsi.org/core/",
             "rec": "https://w3id.org/rec/",
             "brick": "https://brickschema.org/schema/Brick#",
