@@ -84,6 +84,7 @@ The model of this lamp is the following one:
 
 ## DTKG
 ```
+@prefix wodt: <https://purl.org/wodt/> .
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix brick: <https://brickschema.org/schema/Brick#> .
 @prefix rec: <https://w3id.org/rec> .
