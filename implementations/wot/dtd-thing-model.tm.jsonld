@@ -7,7 +7,7 @@
     ],
     "@type": "tm:ThingModel",
     "title": "{{DT_TITLE}}",
-    "version": {"model": "0.1.0"},
+    "version": {"model": "1.0.0"},
     "id": "{{DT_URI}}",
     "wodt:physicalAssetId": "{{PA_ID}}",
     "tm:optional": [
